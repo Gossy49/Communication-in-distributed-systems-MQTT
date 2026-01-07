@@ -51,7 +51,7 @@ if __name__ == '__main__':
             time.sleep(2)
 
     except KeyboardInterrupt:
-        print("Temperature1 stopped.")
+        print("Temperature2 stopped.")
 
     # Stop the loop and disconnect
     client.loop_stop()

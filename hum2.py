@@ -16,7 +16,7 @@ def on_connect(client, userdata, flags, rc, properties):
 
 
 if __name__ == "__main__":
-    sensor_name = "H1"
+    sensor_name = "H2"
 
     client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
     client.on_connect = on_connect
@@ -44,7 +44,7 @@ if __name__ == "__main__":
             time.sleep(2)
 
     except KeyboardInterrupt:
-            print("Humudity1 stopped.")
+            print("Humudity2 stopped.")
 
     # Stop the loop and disconnect
     client.loop_stop()

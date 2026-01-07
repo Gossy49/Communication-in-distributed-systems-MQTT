@@ -44,7 +44,7 @@ if __name__ == "__main__":
             time.sleep(2)
 
     except KeyboardInterrupt:
-            print("Humudity1 stopped.")
+            print("Humidity1 stopped.")
 
     # Stop the loop and disconnect
     client.loop_stop()
